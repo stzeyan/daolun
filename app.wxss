@@ -1,0 +1,6 @@
+page {
+  background-color:white;
+  height: 100%;
+  font:32rpx/1.5 "inherit";
+}
+caption,list-item{display:block}

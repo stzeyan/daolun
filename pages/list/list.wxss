@@ -1,0 +1,13 @@
+
+.btn1{
+  width: 60%;
+  top: 40%;
+  color: rgb(255, 255, 255);
+  background-color:rgb(134, 201, 243);
+  background:url("https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1542363196&di=8bb3f3debc3e202810fc697162d0d21d&src=http://pic.58pic.com/58pic/14/60/63/74v58PIC8KA_1024.jpg") no-repeat 0 0;
+}
+page {
+  background:linear-gradient(to bottom right,rgb(35, 35, 170),rgb(76, 138, 209),rgb(105, 183, 231),rgb(75, 177, 224),lightblue,lightcyan);
+  height: 100%;
+  font:32rpx/1.5 "Microsoft YaHei";
+}

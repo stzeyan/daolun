@@ -1,0 +1,12 @@
+<page>
+    <view class="user-info">
+        <image src="{{userInfo.avatar}}" class="avatar" />
+        <text class="nickname">{{userInfo.nickname}}</text>
+        <view class="total">
+            <text>{{total.favorite}}</text>个车位收藏
+        </view>
+    </view>
+    <navigator class="favorite" url="../favorites/favorites">
+        <text>我的车位</text>
+    </navigator>
+</page>

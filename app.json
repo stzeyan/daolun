@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/list/list",
+    "pages/message/message",
+    "pages/user/user",
+    "pages/trucks/trucks",
+    "pages/favorites/favorites",
+    "pages/detail/detail",
+    "pages/success/success",
+    "pages/profile/profile"
+  ],
+  "window": {
+    "navigationBarTitleText": "车货匹配",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#FAFAFA",
+    "backgroundTextStyle": "#333",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "color": "#7f8389",
+    "selectedColor": "#09BB07",
+    "backgroundColor": "#BAD3F6",
+    "borderStyle": "black",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "登录",
+        "iconPath": "images/profile.png",
+        "selectedIconPath": "images/profileHL.png"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "text": "附近车位",
+        "iconPath": "images/list.png",
+        "selectedIconPath": "images/list-selected.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "车位发布",
+        "iconPath": "images/add.png",
+        "selectedIconPath": "images/add-selected.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "个人中心",
+        "iconPath": "images/me.png",
+        "selectedIconPath": "images/me-selected.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": false
+}
